@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastrar</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+   body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-image: linear-gradient(90deg, rgb(13, 95, 122) , indigo);
+        }
+        div{
+            background-color: rgba(0, 0, 0, 0.9);
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            padding: 80px;
+            border-radius: 15px;
+            color: #fff;
+            background-image: linear-gradient(90deg, rgb(13, 95, 122) , indigo);
+        }
+        input{
+            padding: 15px;
+            border: none;
+            outline: none;
+            font-size: 15px;
+        }
+        button{
+            background-color: dodgerblue;
+            border: none;
+            padding: 15px;
+            width: 100%;
+            border-radius: 10px;
+            color: white;
+            font-size: 15px;  
+        }
+        button:hover{
+            background-color: deepskyblue;
+            cursor: pointer;
+        }
+        h1{
+            text-align: center;
+            color: cornsilk;
+            padding: 50px;
+            transition: transform 0.2s ease;
+        }
+        h1:hover {
+            transform: scale(1.2);
+        }
+    </style>
+</head>
+<body>
+    <h1>𝔖𝔫𝔢𝔞𝔨𝔢𝔯 ℌ𝔞𝔳𝔢𝔫</h1>
+    <div>
+        <h2>Cadastrar</h2>
+        <form action="site.html">
+            <input type="text"placeholder="Nome" id="nome" name="nome" required>
+            <br></br>
+            <input type="email" placeholder="Email" id="email" name="email" required>
+            <br></br>
+            <input type="password" placeholder="Senha" id="senha" name="senha" required>
+            <br></br>
+            <button type="submit">Cadastrar</button>
+        </form>
+    </div>
+</body>
+</html>
